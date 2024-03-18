@@ -1,3 +1,41 @@
 // YOU MUST USE BEM HERE
-// IMPLEMENT ALL THE RULES RELATED TO THE COMPONENTS THAT ARE PART OF YOUR DESIGN SYSTEM HERE 
+// IMPLEMENT ALL THE RULES RELATED TO THE COMPONENTS THAT ARE PART OF YOUR DESIGN SYSTEM HERE
 // Example: input, button, card ...
+.card {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    width: 25%;
+    background-color: white;
+
+    .card__description {
+        color: #2b2b2b;
+        font-size: 18px;
+        margin-top: -5px;
+
+    }
+    .card__price {
+        color: white;
+        font-size: 18px;
+    }
+    .card__place {
+        color: #767676;
+        font-size: 12px;
+        margin-top: -50px;
+    }
+    .card__image{
+        max-width: 300px;
+        border-radius: 5px;
+    }
+    
+    
+}
+.card:hover {
+    background-color: #F1F9FF;
+}
+.nav{
+    .nav__input{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
