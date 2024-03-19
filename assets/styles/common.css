@@ -1,8 +1,23 @@
+.nav__input--search input[type=text] {
+  padding: 10px;
+  padding-right: 500px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px;
+  color: #767676;
+}
+.nav__input--search input[type=text] .nav__input--search input[type=text]:hover {
+  width: 260px;
+  border: 1px solid #555;
+  display: block;
+  padding: 9px 4px 9px 40px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 5px;
   width: 25%;
   background-color: white;
 }
@@ -26,9 +41,5 @@
 }
 
 .card:hover {
-  background-color: #F1F9FF;
-}
-
-.nav .nav__input {
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f9ff;
 }/*# sourceMappingURL=common.css.map */
