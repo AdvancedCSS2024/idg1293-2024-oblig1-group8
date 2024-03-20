@@ -23,7 +23,7 @@
 
           <div class="login__card__input">
             <input type="text" placeholder="Skriv inn din e-postadresse*">
-            <p>*Nødvendig felt</p>
+            <p class="login__card__input--req">*Nødvendig felt</p>
           </div>
 
           <div class="login__card__input">
@@ -31,25 +31,29 @@
             <div>
               <button></button>  
             </div>
-            <p>*Nødvendig felt</p>
+            <p class="login__card__input--req">*Nødvendig felt</p>
           </div>
 
           <div class="login__card__button">
             <button class="login__card__button--help">Glemt passord?</button>
           </div>
 
-          <div class="login__card__button--staylogged">
-            <input type="checkbox">
-            <label for="checkbox">Hold meg innlogget</label>
-            <button class="login__card__button--info"></button>
+          <div class="login__card__remember">
+            <div class="login__card__remember__checkbox-container">
+              <input class="login__card__remember__button--remember" type="checkbox">
+              <label for="checkbox">Hold meg innlogget</label>
+            </div>
+            <button class="login__card__remember__button--info"></button>
           </div>
 
-          <div class="login__card__button">
-            <button class="login__card__button--login" type="submit">Logg på</button>
-          </div>
-
-          <div class="login__card__button">
+          <div class="login__card__button__container">
+            <div class="login__card__button">
+              <button class="login__card__button--login" type="submit">Logg på</button>
+            </div>
+          
+            <div class="login__card__button">
             <button class="login__card__button--register">Opprette ny konto</button>
+            </div>
           </div>
         </div>
       </form>

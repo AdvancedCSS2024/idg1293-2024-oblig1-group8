@@ -2,14 +2,25 @@
   box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.14);
 }
 
+.login__card__input {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.login__card__input--req {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.8142857143rem;
+}
+
 .login__card__button--login {
   min-width: 150px;
   padding: 16px;
+  margin-top: 16px;
   font-size: 17px;
   line-height: 16px;
   font-weight: 600;
   letter-spacing: 0.25px;
   border-radius: 6px;
+  border: 0;
   box-shadow: none;
   text-transform: none;
   color: #fff;
@@ -19,6 +30,7 @@
 .login__card__button--register {
   min-width: 150px;
   padding: 16px;
+  margin-top: 16px;
   font-size: 17px;
   line-height: 16px;
   font-weight: 600;

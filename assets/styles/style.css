@@ -2,14 +2,25 @@
   box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.14);
 }
 
+.login__card__input {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.login__card__input--req {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.8142857143rem;
+}
+
 .login__card__button--login {
   min-width: 150px;
   padding: 16px;
+  margin-top: 16px;
   font-size: 17px;
   line-height: 16px;
   font-weight: 600;
   letter-spacing: 0.25px;
   border-radius: 6px;
+  border: 0;
   box-shadow: none;
   text-transform: none;
   color: #fff;
@@ -19,6 +30,7 @@
 .login__card__button--register {
   min-width: 150px;
   padding: 16px;
+  margin-top: 16px;
   font-size: 17px;
   line-height: 16px;
   font-weight: 600;
@@ -46,6 +58,9 @@
 @font-face {
   font-family: "finn-medium";
   src: url(https://assets.finn.no/pkg/@warp-ds/fonts/v1/FINNTypeStrippet-Medium.woff2);
+}
+@font-face {
+  font-family: "Source Sans Pro";
 }
 body {
   margin: 0;
@@ -79,7 +94,12 @@ body {
   padding: 27px 12px 10px;
   background-color: rgba(0, 0, 0, 0.09);
   border: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.87);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.login__card__input p {
+  margin: 0;
+  margin-top: 3px;
 }
 
 .login__card__header h1 {
@@ -87,4 +107,23 @@ body {
   font-size: 1.5rem;
   line-height: 130%;
   letter-spacing: normal;
+}
+
+.login__card__button__container {
+  display: block;
+}
+
+.login__card__remember {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.login__card__remember__button--info {
+  padding: 12px;
+}
+
+.login__card__remember label {
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */
