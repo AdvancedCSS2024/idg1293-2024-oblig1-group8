@@ -2,6 +2,43 @@
   box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.14);
 }
 
+.login__card__button--login {
+  min-width: 150px;
+  padding: 16px;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  border-radius: 6px;
+  box-shadow: none;
+  text-transform: none;
+  color: #fff;
+  background-color: #1d72db;
+  width: 100%;
+}
+.login__card__button--register {
+  min-width: 150px;
+  padding: 16px;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  border: 0;
+  box-shadow: none;
+  text-transform: none;
+  color: #1d72db;
+  background-color: transparent;
+  width: 100%;
+}
+.login__card__button--help {
+  border: none;
+  background-color: transparent;
+  color: #1d72db;
+  font-size: 0.95rem;
+  font-weight: 400;
+  border-bottom: 1px solid currentcolor;
+}
+
 @font-face {
   font-family: "finn-light";
   src: url(https://assets.finn.no/pkg/@warp-ds/fonts/v1/FINNTypeStrippet-Light.woff2);
@@ -40,6 +77,9 @@ body {
   letter-spacing: inherit;
   font-size: 1.0857142857rem;
   padding: 27px 12px 10px;
+  background-color: rgba(0, 0, 0, 0.09);
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.87);
 }
 
 .login__card__header h1 {

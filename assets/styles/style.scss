@@ -41,6 +41,9 @@ body {
     letter-spacing: inherit;
     font-size: 1.0857142857142856rem;
     padding: 27px 12px 10px;
+    background-color: rgba(0, 0, 0, 0.09);
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.87);
 }
 
 .login__card__header h1 {
