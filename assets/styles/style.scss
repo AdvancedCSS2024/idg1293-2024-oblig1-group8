@@ -1,1 +1,45 @@
 // USE THIS FILE TO CREATE THE LAYOUT AND SPECIFIC RULES FOR SCREENSHOTS 1 and 2
+@use "common.scss";
+
+@font-face {
+    font-family: "finn-light";
+    src: url(https://assets.finn.no/pkg/@warp-ds/fonts/v1/FINNTypeStrippet-Light.woff2);
+}
+
+@font-face {
+    font-family: "finn-medium";
+    src: url(https://assets.finn.no/pkg/@warp-ds/fonts/v1/FINNTypeStrippet-Medium.woff2);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    color: #111;
+    background: #f8f8f8; // from official website //
+    font-family: "finn-light";
+    letter-spacing: .25px; // from inspecting elements of the official website //
+}
+
+.login__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 475px;
+    padding: 0 2rem 2.5rem;
+    width: 450px;
+    background: #fff;
+    border-radius: 9px;
+}
+
+.login__card__input input {
+    padding: 27px 12px 10px;
+}
+
+.login__card__header h1 {
+    font-family: "finn-medium";
+    font-size: 1.5rem;
+    line-height: 130%;
+    letter-spacing: normal;
+}
