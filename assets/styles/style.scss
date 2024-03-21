@@ -11,10 +11,6 @@
     src: url(https://assets.finn.no/pkg/@warp-ds/fonts/v1/FINNTypeStrippet-Medium.woff2);
 }
 
-@font-face {
-    font-family: "Source Sans Pro";
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -64,19 +60,4 @@ body {
 
 .login__card__button__container {
     display: block;
-}
-
-.login__card__remember {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
-    padding: 0;
-}
-
-.login__card__remember__button--info {
-    padding: 12px;
-}
-
-.login__card__remember label {
-    padding: 0;
 }

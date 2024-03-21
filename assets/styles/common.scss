@@ -18,6 +18,8 @@
     }
 }
 
+
+
 .login__card__button {
 
     &--login {
@@ -37,6 +39,14 @@
         width: 100%;
     }
 
+    &--login:hover {
+        background-color: #004ABC;
+        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+        rgba(64, 64, 64, 0.24) 0px 3px 8px 0px, 
+        rgba(64, 64, 64, 0.16) 0px 3px 6px 0px;
+    }
+
     &--register {
     min-width: 150px;
     padding: 16px;
@@ -45,6 +55,7 @@
     line-height: 16px;
     font-weight: 600;
     letter-spacing: 0.25px;
+    border-radius: 6px;
     border: 0;
     box-shadow: none;
     text-transform: none;
@@ -53,13 +64,50 @@
     width: 100%;
     }
 
+    &--register:hover {
+        background-color: #F8FAFC;
+        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+        rgba(64, 64, 64, 0.24) 0px 3px 8px 0px, 
+        rgba(64, 64, 64, 0.16) 0px 3px 6px 0px;
+    }
+
     &--help {
+        box-sizing: inherit;
         border: none;
         background-color: transparent;
         color: #1d72db;
         font-size: 0.95rem;
         font-weight: 400;
         border-bottom: 1px solid currentcolor;
+        padding: 0;
+        margin: 0;
+        margin-top: 12px;
+        line-height: 1.43;
+        letter-spacing: .25px;
     }
 
+}
+
+.rememberme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    font-weight: 400;
+
+    &--label {
+        display: inline-flex;
+    }
+
+    &--text {
+        font-size: 1.0857142857142856rem;
+        color: #111;
+        font-weight: 400;
+    }
+
+    &--checkbox {
+        margin-right: 17px;
+        transform: scale(1.5);
+    }
 }

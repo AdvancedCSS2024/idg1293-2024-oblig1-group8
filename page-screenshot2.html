@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Screenshot 2 page</title>
   <link rel="stylesheet" href="/assets/styles/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
 
@@ -29,7 +30,11 @@
           <div class="login__card__input">
             <input type="password" placeholder="Vennligst oppgi passordet ditt*">
             <div>
-              <button></button>  
+              <button>
+                <span class="material-symbols-outlined">
+                  visibility
+                </span> 
+              </button>
             </div>
             <p class="login__card__input--req">*Nødvendig felt</p>
           </div>
@@ -38,12 +43,15 @@
             <button class="login__card__button--help">Glemt passord?</button>
           </div>
 
-          <div class="login__card__remember">
-            <div class="login__card__remember__checkbox-container">
-              <input class="login__card__remember__button--remember" type="checkbox">
-              <label for="checkbox">Hold meg innlogget</label>
+          <div class="rememberme">
+            <div>
+              <label class="rememberme--label">
+                <input type="checkbox" class="rememberme--checkbox">
+                <p class="rememberme--text">Hold meg innlogget</p>
+              </label>
             </div>
-            <button class="login__card__remember__button--info"></button>
+
+            <button></button>
           </div>
 
           <div class="login__card__button__container">
