@@ -4,8 +4,71 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Demo page</title>
+  <link rel="stylesheet" href="/assets/styles/common.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 </head>
 <body>
-  <!-- EDIT THIS PAGE TO SHOW HOW YOU USE ALL THE ELEMENTS IMPLEMENTED IN YOUR DESIGN SYSTEM  -->
+
+  <form class="login__card">
+    <div class="login__card__logo">
+      <a href="https://www.finn.no/">
+        <img class="login__card__logo--finn" src="//d3iwtia3ndepsv.cloudfront.net/clients/images/logos/5087dc1b421c7a0b79000000_56e7c4e3c1c45.png" alt="FINN.no">
+      </a>
+    </div>
+    <div class="login__card__logo--schibsted">
+  </div>
+
+    
+  <div class="login__card__header">
+    <h1>Logg inn</h1>
+  </div>
+
+  <div class="login__card__input">
+    <input class="login__card__input--textarea" type="text" placeholder="Skriv inn din e-postadresse*">
+    <p class="login__card__input--req">*Nødvendig felt</p>
+  </div>
+
+    <div class="login__card__input">
+      <div class="login__card__input--textarea">
+      <input class="login__card__input--textarea" type="password" placeholder="Vennligst oppgi passordet ditt*">
+        <button class="login__card__input--showhide">
+          <span class="material-symbols-outlined">
+            visibility
+          </span> 
+        </button>
+      </div>
+      <p class="login__card__input--req">*Nødvendig felt</p>
+    </div>
+
+    <div class="login__card__button">
+      <button class="login__card__button--help">Glemt passord?</button>
+    </div>
+
+    <div class="rememberme">
+      <div>
+      <label class="rememberme--label">
+        <span class="rememberme--checkbox"><input type="checkbox"></span>
+        <span class="rememberme--text">Hold meg innlogget</span>
+      </label>
+    </div>
+
+      <button class="rememberme--info">
+        <span class="material-symbols-outlined">
+        info
+        </span>
+      </button>
+    </div>
+
+    <div class="login__card__button__container">
+      <div class="login__card__button">
+        <button class="login__card__button--login" type="submit">Logg på</button>
+      </div>
+        
+      <div class="login__card__button">
+      <button class="login__card__button--register">Opprette ny konto</button>
+      </div>
+    </div>
+</form>
+
 </body>
 </html>
