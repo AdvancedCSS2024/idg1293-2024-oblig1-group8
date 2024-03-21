@@ -1,3 +1,4 @@
+Falke
 # General 
 In this assignement we had to implement two webpages of FINN.no, those being the main page you see when visiting the website and the one you see when trying to log in. Firstly we had to implement the designs of the identified components into the demo.html page and then use said elements in recreating said webpages. The design of the webpages was implemented using the finn.no's "fabric design" design system. We had carefullly read through it because it was part of the assignement and as well to ensure the design follows it most thoroughly. For our coding practices we have used the BEM naming methodology in order to create readable and clean code and was also part of the requirement.
 ## Fonts: 
@@ -6,3 +7,14 @@ We managed to find the exact fonts FINN.no used for their styling, it is respect
 FINN.no's design system provides the future developers working with the webpages with a comprehensible color palette and rules to using them. We have followed the rule to "not invent our own colors" and have used exclusively what we have been provided in the pallette. Primary colors for fonts were  Licorice: #464646 Stone: #767676 and Sardine: #C3CCD9. The first  two were mostly used for Bolder texts and headlines and sardine was used for texts that were meant to be much less obtrusive, like breadcrumbs in the footer, or the location in the card. The two main colors used in buttons and breadcrumbs and what we can see in the their logo were respectively, primary-blue #0063fb and secondary-blue #06befb, we have made sure to include those.
 ## Icons
 Inside the first provided page we have managed to find and copy HTML elemnets for icons, we simply saved them as .svg files and used them in our design. In this way we made sure to have 1:1 quality, since taking screenshots would result in loss of it.
+
+## Login-card
+Styling the login-card posed a few challenges, specifically related to the fact that FINN uses javascript to make certain elements of the document dynamic.
+One example is the show/hide button in input type password, where if you click on the button to show or hide password input it would change 
+the icon from regular to an eye with a strike-through line to signify which state the button is currently in. 
+Since we lack the skills to implement such javascript we opted to only include the icon that signifies "show password".
+Another difficulty related to the show/hide password button was placing it within the textarea of the input. This was mostly difficult to implement due to poor BEM practices,
+which made it complicated to fix the positioning of the button without breaking the design of that particular section in the login-card.
+With regards to the placeholder text in inputs ("Vennligst oppgi passordet ditt* & "Skriv inn din e-postadresse*") we had problems implementing the "active" effects which also
+stemmed from poor BEM practices, as well as the fact that this text in our code is generated through the placeholder attribute. Upon inspecting FINN's login page we noticed that they have opted to nest a label tag inside of a div in order to create the effect of a placeholder text. We tried to experiment with this but ultimately we could not find
+a satisfying solution to this issue. Due to time-restraints, we decided against including the "Schibsted" logo in the login-card, mostly due to the fact that the logo itself provides no actual function as opposed to the finn logo which is actually a link to the FINN homepage. Lastly we did not implement all of page-screenshot2 because we wanted to focus on including as many elements from the login-card as possible, as the rest of the page is basically just a few paragraphs and two links with hover effects...

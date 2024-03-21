@@ -6,6 +6,250 @@
   font-family: "finn-medium";
   src: url(https://assets.finn.no/pkg/@warp-ds/fonts/v1/FINNTypeStrippet-Medium.woff2);
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  color: #111;
+  background: #f8f8f8;
+  font-family: "finn-light";
+  letter-spacing: 0.25px;
+}
+
+.login__card {
+  box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.14);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 475px;
+  padding: 0 2rem 2.5rem;
+  width: 450px;
+  background: #fff;
+  border-radius: 9px;
+}
+
+.login__card__input input {
+  box-sizing: border-box;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 100%;
+  letter-spacing: inherit;
+  font-size: 1.0857142857rem;
+  padding: 27px 12px 10px;
+  background-color: rgba(0, 0, 0, 0.09);
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  outline: 0;
+}
+
+.login__card__input p {
+  margin: 0;
+  margin-top: 3px;
+}
+
+.login__card__input :-moz-placeholder-shown {
+  font-family: "finn-light";
+}
+
+.login__card__input :placeholder-shown {
+  font-family: "finn-light";
+}
+
+.login__card__header h1 {
+  font-family: "finn-medium";
+  font-size: 1.5rem;
+  line-height: 130%;
+  letter-spacing: normal;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+  color: #666;
+}
+
+.login__card__input {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.login__card__input--textarea {
+  display: flex;
+}
+.login__card__input--textarea:hover {
+  background-color: rgba(0, 0, 0, 0.12);
+  border-color: #111;
+}
+.login__card__input--textarea:focus {
+  border-bottom: 2px solid #1d72db;
+}
+.login__card__input--showhide {
+  border: 0;
+  background-color: transparent;
+}
+.login__card__input--req {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.8142857143rem;
+}
+
+.login__card__button--login {
+  min-width: 150px;
+  padding: 16px;
+  margin-top: 16px;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  letter-spacing: 0.25px;
+  border-radius: 6px;
+  border: 0;
+  box-shadow: none;
+  text-transform: none;
+  color: #fff;
+  background-color: #1d72db;
+  width: 100%;
+}
+.login__card__button--login:hover {
+  background-color: #004ABC;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(64, 64, 64, 0.24) 0px 3px 8px 0px, rgba(64, 64, 64, 0.16) 0px 3px 6px 0px;
+}
+.login__card__button--register {
+  min-width: 150px;
+  padding: 16px;
+  margin-top: 16px;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  letter-spacing: 0.25px;
+  border-radius: 6px;
+  border: 0;
+  box-shadow: none;
+  text-transform: none;
+  color: #1d72db;
+  background-color: transparent;
+  width: 100%;
+}
+.login__card__button--register:hover {
+  background-color: #F8FAFC;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(64, 64, 64, 0.24) 0px 3px 8px 0px, rgba(64, 64, 64, 0.16) 0px 3px 6px 0px;
+}
+.login__card__button--help {
+  box-sizing: inherit;
+  border: none;
+  background-color: transparent;
+  color: #1d72db;
+  font-size: 0.95rem;
+  font-weight: 400;
+  font-family: "finn-light";
+  border-bottom: 1px solid currentcolor;
+  padding: 0;
+  margin: 0;
+  margin-top: 12px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+}
+
+.rememberme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+.rememberme--label {
+  display: inline-flex;
+  align-items: center;
+}
+.rememberme--text {
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.43;
+  margin-left: 10px;
+}
+.rememberme--checkbox {
+  transform: scale(1.5);
+  padding: 5px;
+}
+.rememberme--checkbox:hover {
+  border-radius: 50%;
+  background-color: #F8FAFC;
+}
+.rememberme--info {
+  display: flex;
+  border: 0;
+  background-color: transparent;
+  padding: 12px;
+}
+.rememberme--info:hover {
+  border-radius: 50%;
+  background-color: #F8FAFC;
+}
+
+.login__card__logo {
+  display: flex;
+  height: 85px;
+  align-items: center;
+  margin-bottom: -10px;
+}
+
+img {
+  max-height: 18px;
+  max-width: 36px;
+  padding: 0;
+  margin: 0;
+}
+
+.login__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 475px;
+  padding: 0 2rem 2.5rem;
+  width: 450px;
+  background: #fff;
+  border-radius: 9px;
+}
+
+.login__card__input input {
+  box-sizing: border-box;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 100%;
+  letter-spacing: inherit;
+  font-size: 1.0857142857rem;
+  padding: 27px 12px 10px;
+  background-color: rgba(0, 0, 0, 0.09);
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  outline: 0;
+}
+
+.login__card__input p {
+  margin: 0;
+  margin-top: 3px;
+}
+
+.login__card__input :-moz-placeholder-shown {
+  font-family: "finn-light";
+}
+
+.login__card__input :placeholder-shown {
+  font-family: "finn-light";
+}
+
+.login__card__header h1 {
+  font-family: "finn-medium";
+  font-size: 1.5rem;
+  line-height: 130%;
+  letter-spacing: normal;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+  color: #666;
+
+
 * {
   margin: 0;
 }
