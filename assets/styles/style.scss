@@ -52,6 +52,10 @@ body {
     margin-top: 3px;
 }
 
+.login__card__input :placeholder-shown {
+    font-family: "finn-light";
+}
+
 .login__card__header h1 {
     font-family: "finn-medium";
     font-size: 1.5rem;

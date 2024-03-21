@@ -32,6 +32,7 @@
   font-size: 17px;
   line-height: 16px;
   font-weight: 600;
+  font-family: inherit;
   letter-spacing: 0.25px;
   border-radius: 6px;
   border: 0;
@@ -52,6 +53,7 @@
   font-size: 17px;
   line-height: 16px;
   font-weight: 600;
+  font-family: inherit;
   letter-spacing: 0.25px;
   border-radius: 6px;
   border: 0;
@@ -72,6 +74,7 @@
   color: #1d72db;
   font-size: 0.95rem;
   font-weight: 400;
+  font-family: "finn-light";
   border-bottom: 1px solid currentcolor;
   padding: 0;
   margin: 0;
@@ -163,6 +166,14 @@ body {
 .login__card__input p {
   margin: 0;
   margin-top: 3px;
+}
+
+.login__card__input :-moz-placeholder-shown {
+  font-family: "finn-light";
+}
+
+.login__card__input :placeholder-shown {
+  font-family: "finn-light";
 }
 
 .login__card__header h1 {
