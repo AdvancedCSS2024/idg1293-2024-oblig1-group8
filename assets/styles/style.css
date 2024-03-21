@@ -6,6 +6,9 @@
   margin-top: 16px;
   margin-bottom: 8px;
 }
+.login__card__inputinput:hover {
+  background-color: rgba(0, 0, 0, 0.012);
+}
 .login__card__input--req {
   color: rgba(0, 0, 0, 0.54);
   font-size: 0.8142857143rem;
