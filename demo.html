@@ -1,11 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Demo page</title>
+  <link rel="stylesheet" href="/assets/styles/common.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 </head>
 <body>
-  <!-- EDIT THIS PAGE TO SHOW HOW YOU USE ALL THE ELEMENTS IMPLEMENTED IN YOUR DESIGN SYSTEM  -->
+   <body>
+    <ul class="header__list">
+      <li class="header__item">
+        <span class="header__list__container">
+          <img src="assets/images/icons/notification-icon.svg" class="header__icon" alt="" />
+          <p class="header__text">Varslinger</p>
+        </span>
+      </li>
+
+      <li class="header__item">
+        <span class="header__list__container">
+          <img src="assets/images/icons/plus-icon.svg" class="header__icon" alt="" />
+          <p class="header__text">Ny Annonse</p>
+        </span>
+      </li>
+
+      <li class="header__item">
+        <span class="header__list__container">
+          <img src="assets/images/icons/chat-icon.svg" class="header__icon" alt="" />
+          <p class="header__text">Meldinger</p>
+        </span>
+      </li>
+
+      <li class="header__item">
+        <span class="header__list__container">
+          <img src="assets/images/icons/profile-icon.svg" class="header__icon" alt="" />
+          <p class="header__text">Logg inn</p>
+        </span>
+      </li>
+    </ul>
+    <div class="nav__input">
+      <div class="nav__input--search">
+        <input type="text" placeholder="Søk etter katt eller kunst"/>
+        <img src="assets/styles/images/magnifying-glass.png" class="nav__input--icon" alt="">
+      </div>
+    </div>
+    
+    <br>
+    <section class="card__section">
+      <div class="card__item">
+        
+        <div class="card__container">
+          <img src="/assets/images/apartament_example.jpg" class="card__image" alt="" />
+          <p class="card__price">10 000 kr</p>
+          <img src="assets/images/icons/favorite-icon.svg" class="card__like" alt="" />
+        </div>
+        
+        <p class="card__place">Nesoddtangen</p>
+        <p class="card__description">
+          Lys toroms leilighet med hage og uteplass
+        </p>
+      </div>
+      </section>
+      <section class="nav__section">
+      <ul class="nav__list nav__list--primary">
+      </header>
+    
+      <div class="nav">
+        <section class="nav__section">
+          <ul class="nav__list nav__list--primary">
+    
+            <li class="nav__item">
+              <figure>
+                <img src="assets/images/icons/sofa-icon.svg" class="nav__image" alt="">
+                <p>Torget</p>
+              </figure>
+            </li>
+    
+            <li class="nav__item">
+              <figure>
+                <img src="assets/images/icons/house-icon.svg" class="nav__image" alt="">
+                <p>Eiendom</p>
+              </figure>
+            </li>
+    
+            <li class="nav__item">
+              <figure>
+                <img src="assets/images/icons/plane-icon.svg" class="nav__image" alt="">
+                <p>Reise</p>
+              </figure>
+            </li>
+    
+            <li class="nav__item">
+              <figure>
+                <img src="assets/images/icons/boat-icon.svg" class="nav__image" alt="">
+                <p>Båt</p>
+              </figure>
+            </li>
+    
+            <li class="nav__item">
+              <figure>
+                <img src="assets/images/icons/bike-icon.svg" class="nav__image" alt="">
+                <p>MC</p>
+              </figure>
+            </li>
+    
+            <li class="nav__item">
+              <figure>
+                <img src="assets/images/icons/hut-icon.svg" class="nav__image" alt="">
+                <p>Feriehjem og hytter til leie</p>
+              </figure>
+            </li>
+          </ul>
+    
+          <ul class="nav__list nav__list--secondary">
+            <li class="nav__item">
+              <figure>
+                <img src="assets/images/icons/car-icon.svg" class="nav__image" alt="">
+                <p>Bil og næring</p>
+              </figure>
+            </li>
+            <li class="nav__item">
+              <figure>
+                <img src="assets/images/icons/briefcase-icon.svg" class="nav__image" alt="">
+                <p>Jobb</p>
+              </figure>
+            </li>
+            <li class="nav__item">
+              <figure>
+                <img src="assets/images/icons/phone-icon.svg" class="nav__image" alt="">
+                <p>Nybrukt mobil</p>
+              </figure>
+            </li>
+            <li class="nav__item">
+              <figure>
+                <img src="assets/images/icons/honk-icon.svg" class="nav__image" alt="">
+                <p>Bilabonnament</p>
+              </figure>
+            </li>
+            <li class="nav__item">
+              <figure>
+                <img src="assets/images/icons/nettbil-icon.svg" class="nav__image" alt="">
+                <p>Nettbil</p>
+              </figure>
+            </li>
+            <li class="nav__item">
+              <figure>
+                <img src="assets/images/icons/mittanbud-icon.svg" class="nav__image" alt="">
+                <p>Mittanbud</p>
+              </figure>
+            </li>
+          </ul>
+        </section>
+      </div>
+    <!-- EDIT THIS PAGE TO SHOW HOW YOU USE ALL THE ELEMENTS IMPLEMENTED IN YOUR DESIGN SYSTEM  -->
+
+  <form class="login__card">
+    <div class="login__card__logo">
+      <a href="https://www.finn.no/">
+        <img class="login__card__logo--finn" src="//d3iwtia3ndepsv.cloudfront.net/clients/images/logos/5087dc1b421c7a0b79000000_56e7c4e3c1c45.png" alt="FINN.no">
+      </a>
+    </div>
+    <div class="login__card__logo--schibsted">
+  </div>
+
+    
+  <div class="login__card__header">
+    <h1>Logg inn</h1>
+  </div>
+
+  <div class="login__card__input">
+    <input class="login__card__input--textarea" type="text" placeholder="Skriv inn din e-postadresse*">
+    <p class="login__card__input--req">*Nødvendig felt</p>
+  </div>
+
+    <div class="login__card__input">
+      <div class="login__card__input--textarea">
+      <input class="login__card__input--textarea" type="password" placeholder="Vennligst oppgi passordet ditt*">
+        <button class="login__card__input--showhide">
+          <span class="material-symbols-outlined">
+            visibility
+          </span> 
+        </button>
+      </div>
+      <p class="login__card__input--req">*Nødvendig felt</p>
+    </div>
+
+    <div class="login__card__button">
+      <button class="login__card__button--help">Glemt passord?</button>
+    </div>
+
+    <div class="rememberme">
+      <div>
+      <label class="rememberme--label">
+        <span class="rememberme--checkbox"><input type="checkbox"></span>
+        <span class="rememberme--text">Hold meg innlogget</span>
+      </label>
+    </div>
+
+      <button class="rememberme--info">
+        <span class="material-symbols-outlined">
+        info
+        </span>
+      </button>
+    </div>
+
+    <div class="login__card__button__container">
+      <div class="login__card__button">
+        <button class="login__card__button--login" type="submit">Logg på</button>
+      </div>
+        
+      <div class="login__card__button">
+      <button class="login__card__button--register">Opprette ny konto</button>
+      </div>
+    </div>
+</form>
 </body>
-</html>
+
