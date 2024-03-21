@@ -193,7 +193,7 @@ body {
   margin-bottom: -10px;
 }
 
-img {
+.login__card__logo--finn {
   max-height: 18px;
   max-width: 36px;
   padding: 0;
@@ -248,6 +248,7 @@ img {
 .material-symbols-outlined {
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
   color: #666;
+}
 
 
 * {
@@ -459,4 +460,6 @@ img {
 }
 .card__like:hover {
   background-color: #B6F0FF;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
