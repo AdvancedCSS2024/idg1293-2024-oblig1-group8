@@ -6,8 +6,19 @@
   margin-top: 16px;
   margin-bottom: 8px;
 }
-.login__card__inputinput:hover {
-  background-color: rgba(0, 0, 0, 0.012);
+.login__card__input--textarea {
+  display: flex;
+}
+.login__card__input--textarea:hover {
+  background-color: rgba(0, 0, 0, 0.12);
+  border-color: #111;
+}
+.login__card__input--textarea:focus {
+  border-bottom: 2px solid #1d72db;
+}
+.login__card__input--showhide {
+  border: 0;
+  background-color: transparent;
 }
 .login__card__input--req {
   color: rgba(0, 0, 0, 0.54);
@@ -78,16 +89,17 @@
 }
 .rememberme--label {
   display: inline-flex;
+  align-items: center;
 }
 .rememberme--text {
   font-size: 0.95rem;
   font-weight: 400;
   line-height: 1.43;
+  margin-left: 15px;
 }
 .rememberme--checkbox {
-  margin-right: 17px;
   transform: scale(1.5);
-  background-color: transparent;
+  padding: 5px;
 }
 .rememberme--checkbox:hover {
   border-radius: 50%;
@@ -145,6 +157,7 @@ body {
   background-color: rgba(0, 0, 0, 0.09);
   border: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  outline: 0;
 }
 
 .login__card__input p {
@@ -157,10 +170,6 @@ body {
   font-size: 1.5rem;
   line-height: 130%;
   letter-spacing: normal;
-}
-
-.login__card__button__container {
-  display: block;
 }
 
 .material-symbols-outlined {

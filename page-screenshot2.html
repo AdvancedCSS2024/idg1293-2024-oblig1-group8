@@ -23,14 +23,14 @@
           </div>
 
           <div class="login__card__input">
-            <input type="text" placeholder="Skriv inn din e-postadresse*">
+            <input class="login__card__input--textarea" type="text" placeholder="Skriv inn din e-postadresse*">
             <p class="login__card__input--req">*Nødvendig felt</p>
           </div>
 
           <div class="login__card__input">
+            <div class="login__card__input--textarea">
             <input type="password" placeholder="Vennligst oppgi passordet ditt*">
-            <div>
-              <button>
+              <button class="login__card__input--showhide">
                 <span class="material-symbols-outlined">
                   visibility
                 </span> 
@@ -46,7 +46,7 @@
           <div class="rememberme">
             <div>
               <label class="rememberme--label">
-                <input type="checkbox" class="rememberme--checkbox">
+                <span class="rememberme--checkbox"><input type="checkbox"></span>
                 <p class="rememberme--text">Hold meg innlogget</p>
               </label>
             </div>
