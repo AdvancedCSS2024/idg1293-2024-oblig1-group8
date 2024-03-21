@@ -1,3 +1,4 @@
+Falke
 # General 
 In this assignement we had to implement two webpages of FINN.no, those being the main page you see when visiting the website and the one you see when trying to log in. Firstly we had to implement the designs of the identified components into the demo.html page and then use said elements in recreating said webpages. The design of the webpages was implemented using the finn.no's "fabric design" design system. We had carefullly read through it because it was part of the assignement and as well to ensure the design follows it most thoroughly. For our coding practices we have used the BEM naming methodology in order to create readable and clean code and was also part of the requirement.
 ## Fonts: 
